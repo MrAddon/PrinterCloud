@@ -1,0 +1,53 @@
+{
+   "key": "com.rauliki.printer",
+   "name": "Issue Card Printer for JIRA Cloud",
+   "version": "1.0",
+   "description": "This is an extension for your JIRA to print beautiful cards from the [AGILE RAPID BOARDS, ISSUE VIEW, ISSUE SEARCH VIEW]. The original code author is qoomon.com [ Bengt Brodersen ] and now is a plugin by Rauliki",
+   "vendor": {
+      "name": "Raul Pelaez",
+      "url": "https://jirasupport.wordpress.com"
+   },
+   "baseUrl": "https://raw.githubusercontent.com/rpelaez/PrinterCloud/master/",
+   "authentication": {
+      "type": "none"
+   },
+   "modules": {
+      "webSections": [
+        {
+            "key": "board-links",
+            "location": "jira.agile.board.tools",
+			"weight": 10,
+            "name": {
+                "value": "Issue Printer"
+            }
+        }
+    ],   
+    "webItems": [
+      {
+        "location": "board-links",
+        "weight": 200,
+        "styleClasses": [
+          "webitem",
+          "system-present-webitem"
+        ],
+        "url": "https://chrome.google.com/webstore/detail/jira-cloud-kanban-combine/bpjcmpaglmkolfbceeepffndplfbdkcb?authuser=1",
+        "context": "product",
+        "target": {
+          "type": "page"
+        },
+        "tooltip": {
+          "value": "Install in Google Chrome"
+        },
+        "icon": {
+          "width": 16,
+          "height": 16,
+          "url": "/icon.png"
+        },
+        "name": {
+          "value": "Install in Google Chrome"
+        },
+        "key": "install"
+      }
+      ]
+   }
+}
