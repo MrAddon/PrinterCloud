@@ -1,13 +1,14 @@
 {
    "key": "com.rauliki.printer",
    "name": "Issue Card Printer for JIRA Cloud",
-   "version": "1.0",
-   "description": "This is an extension for your JIRA to print beautiful cards from the [AGILE RAPID BOARDS, ISSUE VIEW, ISSUE SEARCH VIEW]. The original code author is qoomon.com [ Bengt Brodersen ] and now is a plugin by Rauliki",
+   "version": "2.0",
+   "description": "This is an extension for your JIRA to print beautiful cards from the [AGILE RAPID BOARDS, BACKLOG, ISSUE VIEW, ISSUE SEARCH VIEW]. The original code author is qoomon.com [ Bengt Brodersen ] and now is a plugin by Rauliki",
    "vendor": {
-      "name": "Raul Pelaez",
-      "url": "https://jirasupport.wordpress.com"
+      "name": "MrAddon raulpelaez@mraddon.com",
+      "url": "http://www.MrAddon.com"
    },
-   "baseUrl": "https://raw.githubusercontent.com/rpelaez/PrinterCloud/master/",
+   "baseUrl": "https://raw.githubusercontent.com/rpelaez/PrinterCloud/mraddon/",
+   "enableLicensing": true,
    "authentication": {
       "type": "none"
    },
@@ -30,7 +31,7 @@
           "webitem",
           "system-present-webitem"
         ],
-        "url": "https://chrome.google.com/webstore/detail/issue-card-printer-for-ji/dkmmlbjfgplmmpgebddbdanhgfjmbkfg?authuser=1",
+        "url": "https://chrome.google.com/webstore/detail/issue-card-printer-pro-fo/fccoaoljiaiaogkcegghcgjdgfaknpla",
         "context": "product",
         "target": {
           "type": "page"
