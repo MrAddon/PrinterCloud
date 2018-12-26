@@ -8,6 +8,7 @@
       "url": "http://www.MrAddon.com"
    },
    "baseUrl": "https://raw.githubusercontent.com/mraddon/PrinterCloud/master/",
+   "enableLicensing": true,
    "authentication": {
       "type": "none"
    },
