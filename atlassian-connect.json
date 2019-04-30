@@ -1,7 +1,7 @@
 {
    "key": "com.rauliki.printer",
    "name": "Issue Card Printer for JIRA Cloud",
-   "version": "2.2",
+   "version": "2.3",
    "description": "This is an extension for your JIRA to print beautiful cards from the [AGILE RAPID BOARDS, ISSUE VIEW, ISSUE SEARCH VIEW]. The original code author is qoomon.com [ Bengt Brodersen ] and now is a plugin by Rauliki",
    "vendor": {
       "name": "MrAddon raulpelaez@mraddon.com",
@@ -12,6 +12,9 @@
    "authentication": {
       "type": "none"
    },
+    "apiMigrations": {
+        "gdpr": false
+    },
    "modules": {
       "webSections": [
         {
